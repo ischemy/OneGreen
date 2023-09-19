@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.mt-300 {
+  margin-top: 300px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.pl-24 {
+  padding-left: 24px;
+}
+
+.pr-24 {
+  padding-right: 24px;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.p-email {
+  padding-right: 48px;
+  padding-left: 48px;
+  width: 454px;
+  height: 60px;
+}
+
+.btn-login {
+  padding-right: 48px;
+  padding-left: 48px;
+  width: 454px;
+  height: 60px;
+  background: rgba(25, 175, 0, 1);
+}
+
+.text-blue {
+  color: #1c5bb8;
+}
+
+input,
+button {
+  border-radius: 12px;
+}
+
+.bg-login {
+  background: rgba(250, 250, 250, 1);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.divider-line {
+  border: 1px solid rgba(158, 158, 158, 1);
+  width: 206px;
+}
+
+.atau-color {
+  color: rgba(158, 158, 158, 1);
+}
