@@ -1,4 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.text-regular{
+  font-weight: 400;
+}
+
+.text-medium{
+  font-weight: 500;
+}
+
+.text-semibold{
+  font-weight: 600;
+}
+
+.text-bold{
+  font-weight: 700;
+}
 
 .mt-100 {
   margin-top: 150px;
@@ -6,6 +25,10 @@
 
 .mt-12 {
   margin-top: 12px;
+}
+
+.mt-8{
+  margin-top: 8px;
 }
 
 .mt-24 {
@@ -16,9 +39,19 @@
   margin-left: 24px;
 }
 
+.mr-12{
+  margin-right: 12px;
+}
+
 .pl-24 {
   padding-left: 24px;
 }
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+
 
 .pr-24 {
   padding-right: 24px;
@@ -30,6 +63,10 @@
 
 .pt-16 {
   padding-top: 16px;
+}
+
+.pt-40 {
+  padding-top: 40px;
 }
 
 .pb-16 {
@@ -44,6 +81,10 @@
 }
 .pl-48{
   padding-left: 48px;
+}
+
+.pl-40{
+  padding-left: 40px;
 }
 
 .pl-8{
@@ -71,6 +112,16 @@
   width: 454px;
   height: 60px;
   border: 1px solid rgba(25, 175, 0, 1);
+}
+
+.btn-login-portal{
+  padding: 12px, 16px, 12px, 16px;
+  width: 154px;
+  height: 44px;
+  border: 1px solid rgba(25, 175, 0, 1);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
 }
 
 .text-blue {
@@ -101,6 +152,10 @@ button {
   
 }
 
+.text-gray{
+  color: rgba(158, 158, 158, 1);
+}
+
 .border-gray{
   border: 1px solid rgba(158, 158, 158, 1)
 }
@@ -116,3 +171,28 @@ button {
   top: 0;
   left: 0;
 }
+
+.icon-email{  
+  background: url("/src/assets/image/fi_mail.png") no-repeat left;
+  background-size: 20px;
+  background-position-x: 20px;
+}
+
+.icon-password{
+  background: url("/src/assets/image/u_lock-alt.png") no-repeat left;
+  background-size: 20px;
+  background-position-x: 20px;
+}
+
+.bg-contact{
+  background: rgba(245, 245, 245, 1);
+  height: 44px;
+  
+}
+
+footer{  
+   background-color: rgba(8, 58, 0, 1);
+   color: white;   
+}
+
+
