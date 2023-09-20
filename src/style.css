@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-body{
+body {
   font-family: "Inter", sans-serif;
 }
 
-.text-regular{
+.text-regular {
   font-weight: 400;
 }
 
-.text-medium{
+.text-medium {
   font-weight: 500;
 }
 
-.text-semibold{
+.text-semibold {
   font-weight: 600;
 }
 
-.text-bold{
+.text-bold {
   font-weight: 700;
 }
 
@@ -27,7 +27,15 @@ body{
   margin-top: 12px;
 }
 
-.mt-8{
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-8 {
   margin-top: 8px;
 }
 
@@ -35,11 +43,11 @@ body{
   margin-top: 24px;
 }
 
-.ml-24{
+.ml-24 {
   margin-left: 24px;
 }
 
-.mr-12{
+.mr-12 {
   margin-right: 12px;
 }
 
@@ -50,8 +58,6 @@ body{
 .pl-20 {
   padding-left: 20px;
 }
-
-
 
 .pr-24 {
   padding-right: 24px;
@@ -79,23 +85,24 @@ body{
   width: 454px;
   height: 60px;
 }
-.pl-48{
+
+.pl-48 {
   padding-left: 48px;
 }
 
-.pl-40{
+.pl-40 {
   padding-left: 40px;
 }
 
-.pl-8{
+.pl-8 {
   padding-left: 8px;
 }
 
-.pr-8{
+.pr-8 {
   padding-right: 8px;
 }
 
-.pr-48{
+.pr-48 {
   padding-right: 48px;
 }
 .btn-login {
@@ -104,6 +111,7 @@ body{
   width: 454px;
   height: 60px;
   background: rgba(25, 175, 0, 1);
+  border-radius: 12px;
 }
 
 .btn-regis {
@@ -114,7 +122,8 @@ body{
   border: 1px solid rgba(25, 175, 0, 1);
 }
 
-.btn-login-portal{
+.btn-login-portal {
+  background: rgba(255, 255, 255, 1);
   padding: 12px, 16px, 12px, 16px;
   width: 154px;
   height: 44px;
@@ -128,8 +137,11 @@ body{
   color: #1c5bb8;
 }
 
-input,
-button {
+input {
+  border-radius: 12px;
+}
+
+.br-12 {
   border-radius: 12px;
 }
 
@@ -147,52 +159,108 @@ button {
   color: rgba(158, 158, 158, 1);
 }
 
-.text-green{
+.text-green {
   color: rgba(25, 175, 0, 1);
-  
 }
 
-.text-gray{
+.text-gray {
   color: rgba(158, 158, 158, 1);
 }
 
-.border-gray{
-  border: 1px solid rgba(158, 158, 158, 1)
+.border-gray {
+  border: 1px solid rgba(158, 158, 158, 1);
 }
 
-.leaf1{
+.leaf1 {
   position: fixed;
   bottom: 0;
   right: 0;
 }
 
-.leaf2{
+.leaf2 {
   position: fixed;
   top: 0;
   left: 0;
 }
 
-.icon-email{  
+.icon-email {
   background: url("/src/assets/image/fi_mail.png") no-repeat left;
   background-size: 20px;
   background-position-x: 20px;
 }
 
-.icon-password{
+.icon-password {
   background: url("/src/assets/image/u_lock-alt.png") no-repeat left;
   background-size: 20px;
   background-position-x: 20px;
 }
 
-.bg-contact{
+.bg-contact {
   background: rgba(245, 245, 245, 1);
   height: 44px;
-  
 }
 
-footer{  
-   background-color: rgba(8, 58, 0, 1);
-   color: white;   
+footer {
+  background-color: rgba(8, 58, 0, 1);
+  color: white;
 }
 
+.footer-title {
+  font-weight: 600;
+  font-size: 14;
+}
 
+.footer-subtitle {
+  font-weight: 400;
+  font-size: 14;
+}
+
+.container-image {
+  position: relative;
+  margin: auto 3em auto;
+}
+
+.image {
+  width: 1440px;
+  right: 88px;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  left: 650px;
+  top: -300px;
+}
+
+.text-blue {
+  color: rgba(28, 91, 184, 1);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.title-image {
+  right: 102px;
+  top: 213px;
+  padding: 0;
+}
+
+.menu-about-us {
+  width: 184px;
+  height: 88px;
+  padding-top: 32px;
+  background: rgba(245, 245, 245, 1);
+  color: black;
+  border: none;
+}
+
+.menu-about-us:active {
+  background: transparent;
+  color: #19af00;
+}
+
+a {
+  text-decoration: none;
+}
