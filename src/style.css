@@ -283,14 +283,68 @@ footer {
 }
 
 .image {
-  width: 1440px;
-  right: 88px;
+  width: 1550px;
+  right: 115px;
+  position: relative;
+}
+
+.image-atrh {
+  width: 724px;
+
   position: relative;
 }
 
 .header {
   position: absolute;
   left: 650px;
+  top: -300px;
+}
+
+.header-text-1 {
+  position: absolute;
+  left: 170px;
+  top: 29px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-text-2 {
+  position: absolute;
+  right: 150px;
+  top: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header-text-3 {
+  position: absolute;
+  left: 100px;
+  top: 240px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header-text-4 {
+  position: absolute;
+  right: 220px;
+  top: 265px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-atrh {
+  position: absolute;
+  left: 400px;
+  top: -50px;
+}
+
+.header-text-atrh {
+  position: absolute;
+  left: 20px;
+  top: 19px;
+}
+
+.header-landing {
+  position: absolute;
+  left: 0px;
   top: -300px;
 }
 
@@ -473,4 +527,141 @@ a {
   position: absolute;
   right: 15px;
   top: 10px;
+}
+
+.image-apaiturumahhijau {
+  border-radius: 24px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.text-blue-atrh {
+  color: #1c5bb8;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.text-black-atrh {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.green-bg-card {
+  background: #19af00;
+  border-radius: 24px 0px 0px 24px;
+}
+
+.title-atrh {
+  font-weight: 700;
+  color: white;
+  font-size: 32px;
+}
+
+.paragraph-atrh {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.text-atrh {
+  position: absolute;
+  right: -70px;
+  top: -350px;
+}
+
+.header-card {
+  position: absolute;
+  right: -100px;
+  top: -400px;
+}
+
+.header-image-card-atrh {
+  position: absolute;
+  right: -100px;
+  top: -450px;
+}
+
+.arrow {
+  width: 120px;
+}
+
+.line {
+  margin-top: 14px;
+  width: 90px;
+  background: blue;
+  height: 10px;
+  float: left;
+}
+
+.point {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid blue;
+  float: right;
+}
+
+.vertical {
+  border: 1px solid #1c5bb8;
+  height: 146px;
+}
+
+.mr-85 {
+  margin-right: 85px;
+}
+
+.ml-85 {
+  margin-left: 85px;
+}
+
+.text-kip {
+  font-weight: 500;
+  font-size: 32px;
+  color: #0a0a0a;
+}
+
+.text-rh {
+  font-weight: 700;
+  font-size: 32px;
+  color: #19af00;
+}
+
+.mt-138 {
+  padding-top: 138px;
+}
+
+.bg-gray-card {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 24px, 0px, 0px, 24px;
+  width: 1012px;
+  height: 376px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.card-esl {
+  width: 215px;
+  height: 248px;
+  background: transparent;
+  border: none;
+}
+
+.mt-64 {
+  margin-top: 64px;
+}
+
+.title-krhip {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.subtitle-krhip {
+  font-weight: 400;
+  font-size: 16px;
 }
