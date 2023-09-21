@@ -6,7 +6,7 @@ function AboutUsHeroImage() {
         <img src={Image1} alt="" className="image" />
         <div className="container-image">
           <div className="header">
-            <div className="text-white title">
+            <div className="text-white title-in-image">
               Komitmen Kami untuk Masa
               <br />
               <span className="text-blue">Depan Berkelanjutan</span>

@@ -23,6 +23,10 @@ body {
   margin-top: 150px;
 }
 
+.mt-84 {
+  margin-top: 84px;
+}
+
 .mt-12 {
   margin-top: 12px;
 }
@@ -39,6 +43,14 @@ body {
   margin-top: 8px;
 }
 
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-160 {
+  margin-top: 160px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -47,12 +59,20 @@ body {
   margin-left: 24px;
 }
 
+.ml-77 {
+  margin-left: 77px;
+}
+
 .mr-12 {
   margin-right: 12px;
 }
 
 .pl-24 {
   padding-left: 24px;
+}
+
+.pl-36 {
+  padding-left: 36px;
 }
 
 .pl-20 {
@@ -236,7 +256,7 @@ footer {
   color: rgba(28, 91, 184, 1);
 }
 
-.title {
+.title-in-image {
   font-weight: 700;
   font-size: 40px;
 }
@@ -256,7 +276,7 @@ footer {
   border: none;
 }
 
-.menu-about-us:active {
+.active-menu-aboutus,.menu-about-us:hover {
   background: transparent;
   color: #19af00;
 }
@@ -264,3 +284,56 @@ footer {
 a {
   text-decoration: none;
 }
+
+.title-tentang-kami{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.tentang-kami-p{
+  text-align:center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.visi-misi-p{
+  font-weight: 400;
+  font-size: 16px;
+  text-align: start;
+  margin: auto;
+}
+
+.tim-kami-title{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.blue-line {
+            background-color: #1C5BB8;
+            width: 36px;
+            height: 1px;
+            border-top: 1px dotted 1C5BB8;
+            line-height: 80%;
+            margin-top: 2px;
+            
+}
+
+.blue-line-bold{
+  background: #1C5BB8;
+  border:1px solid #1C5BB8;
+  width: 36px;
+  height: 6px;
+  border-radius: 8px;
+  margin-bottom: 3px;
+}
+
+.name-title{
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.position-text{
+  font-weight: 400;
+  font-size: 14px;
+}
+
