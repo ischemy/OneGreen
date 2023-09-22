@@ -22,6 +22,9 @@ body {
 .mt-100 {
   margin-top: 150px;
 }
+.mt-11 {
+  margin-top: 11px;
+}
 
 .mt-84 {
   margin-top: 84px;
@@ -280,6 +283,10 @@ footer {
 .container-image {
   position: relative;
   margin: auto 3em auto;
+}
+
+.m-3em {
+  margin: 3em;
 }
 
 .image {
@@ -613,6 +620,10 @@ a {
   margin-right: 85px;
 }
 
+.mr-8 {
+  margin-right: 8px;
+}
+
 .ml-85 {
   margin-left: 85px;
 }
@@ -664,4 +675,199 @@ a {
 .subtitle-krhip {
   font-weight: 400;
   font-size: 16px;
+}
+
+.header-earth-section-image {
+  position: absolute;
+  left: 465px;
+  top: 0;
+}
+
+.text-top {
+  font-size: 20;
+  font-weight: 400;
+}
+
+.text-bottom {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.header-half-circle-green {
+  position: static;
+  left: -100px;
+  top: 500px;
+}
+
+.mt-223 {
+  margin-top: 223px;
+}
+
+.mt-min-200 {
+  margin-top: -150px;
+}
+
+.position-all-card {
+  position: absolute;
+  bottom: 450px;
+}
+
+.text-subtitle-card {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.text-number-card {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.line-blue {
+  width: 50%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.text-position {
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+}
+
+.button-position {
+  position: absolute;
+  right: 150px;
+  bottom: 180px;
+}
+
+.text-line-1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.text-line-2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.btn-mulai-skrg {
+  background: rgba(255, 255, 255, 1);
+  padding: 12px, 16px, 12px, 16px;
+  width: 343px;
+  height: 56px;
+  border: 1px solid rgba(25, 175, 0, 1);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.mt-17 {
+  margin-top: 13px;
+}
+
+.card-profile {
+  width: 903.37px;
+  height: 445.34px;
+  top: 4278px;
+  left: 247px;
+  border-radius: 21.77px;
+  background: rgba(245, 245, 245, 1);
+}
+
+.profile-text-1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.profile-name-card {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.profile-position-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(158, 158, 158, 1);
+}
+.kutip-position {
+  position: absolute;
+  bottom: 100px;
+}
+
+.photo-position {
+  position: absolute;
+  right: 150px;
+  bottom: -40px;
+}
+
+.mt-235 {
+  margin-top: 235px;
+}
+
+.mt-177 {
+  margin-top: 177px;
+}
+
+.btn-position-profile {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.btn-next-profile {
+  width: 120.63px;
+  height: 53.02px;
+  border-radius: 21.77px;
+  background: rgba(25, 175, 0, 1);
+  font-weight: 600;
+  font-size: 13px;
+  color: white;
+  border: none;
+}
+
+.ml-29 {
+  margin-left: 29px;
+}
+
+.ml-400 {
+  margin-left: 950px;
+}
+.font-judul {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.card-code {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn-next-slide {
+  border: none;
+  color: rgba(25, 175, 0, 1);
+}
+
+.text-line-kegiatan1 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.text-line-kegiatan2 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.carousel-pagination {
+  display: inline-block;
+}
+
+.carousel-pagination a {
+  background-color: rgba(237, 237, 237, 1);
+  width: 32px;
+  height: 6px;
+  border-radius: 24px;
+}
+
+.carousel-pagination a.active {
+  background-color: rgba(25, 175, 0, 1);
 }
