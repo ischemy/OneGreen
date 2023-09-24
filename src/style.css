@@ -50,6 +50,10 @@ body {
   margin-bottom: 12px;
 }
 
+.mb-8 {
+  margin-bottom: 8px;
+}
+
 .mt-8 {
   margin-top: 8px;
 }
@@ -869,5 +873,13 @@ a {
 }
 
 .carousel-pagination a.active {
+  background-color: rgba(25, 175, 0, 1);
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+#carouselExampleCaptions button.active {
   background-color: rgba(25, 175, 0, 1);
 }

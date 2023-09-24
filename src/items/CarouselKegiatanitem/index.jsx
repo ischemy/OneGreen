@@ -8,53 +8,94 @@ export function CarouselKegiatanitem() {
       <div className="container mt-80">
         <div className="font-judul">KEGIATAN KAMI</div>
         <div>
-          <img src={line2} alt="" />
+          <img src={line2} alt="" className="mb-12" />
         </div>
         <div
-          id="carouselExampleControls"
-          className="carousel slide"
-          data-bs-ride="carousel"
+          id="carouselExampleCaptions"
+          className="carousel carousel-dark slide"
+          data-bs-ride="false"
         >
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
           <div className="carousel-inner">
-            <div className="carousel-item d-flex active">
-              <div
-                className="card border-0"
-                style={{ width: "482px", height: "454px" }}
-              >
-                <div className="card-body">
-                  <img src={kegiatan1} className="d-block w-100" alt="..." />
-                  <div>
+            <div className="carousel-item active">
+              <div className="card-group gap-8">
+                <div className="card">
+                  <img src={kegiatan1} className="card-img-top" alt="..." />
+                  <div className="card-body">
                     <p className="text-line-kegiatan1">10 Agustus 2023</p>
                     <p className="text-line-kegiatan2">
                       Peletakan Batu Pertama Untuk Pembangunan Rumah Hijau
                     </p>
                   </div>
                 </div>
-              </div>
-              <div
-                className="card border-0"
-                style={{ width: "482px", height: "454px" }}
-              >
-                <div className="card-body">
-                  <img src={kegiatan2} className="d-block w-100" alt="..." />
+                <div className="card">
+                  <img src={kegiatan2} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
                 </div>
-              </div>
-              <div
-                className="card border-0"
-                style={{ width: "482px", height: "454px" }}
-              >
-                <div className="card-body">
-                  <img src={kegiatan3} className="d-block w-100" alt="..." />
+                <div className="card">
+                  <img src={kegiatan3} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
                 </div>
               </div>
             </div>
-            <div className="carousel-item"></div>
-            <div className="carousel-item"></div>
+            <div className="carousel-item">
+              <div className="card-group gap-8">
+                <div className="card">
+                  <img src={kegiatan3} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
+                </div>
+                <div className="card">
+                  <img src={kegiatan3} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
+                </div>
+                <div className="card">
+                  <img src={kegiatan3} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="card-group gap-8">
+                <div className="card">
+                  <img src={kegiatan3} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
+                </div>
+                <div className="card">
+                  <img src={kegiatan3} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
+                </div>
+                <div className="card">
+                  <img src={kegiatan3} className="card-img-top" alt="..." />
+                  <div className="card-body"></div>
+                </div>
+              </div>
+            </div>
           </div>
           <button
             className="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev"
           >
             <span
@@ -66,7 +107,7 @@ export function CarouselKegiatanitem() {
           <button
             className="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next"
           >
             <span
@@ -76,16 +117,42 @@ export function CarouselKegiatanitem() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-
-        <div className="d-flex justify-content-center mb-91">
-          <div className="carousel-pagination">
-            <button className=" border-0"></button>
-            <button className=" border-0 ml-6"></button>
-            <button className=" border-0 ml-6"></button>
-            <button className="active border-0 ml-6"></button>
-          </div>
-        </div>
       </div>
     </>
   );
+}
+
+{
+  /* <div className="carousel-item d-flex active">
+<div
+  className="card border-0"
+  style={{ width: "482px", height: "454px" }}
+>
+  <div className="card-body">
+    <img src={kegiatan1} className="d-block w-100" alt="..." />
+    <div>
+      <p className="text-line-kegiatan1">10 Agustus 2023</p>
+      <p className="text-line-kegiatan2">
+        Peletakan Batu Pertama Untuk Pembangunan Rumah Hijau
+      </p>
+    </div>
+  </div>
+</div>
+<div
+  className="card border-0"
+  style={{ width: "482px", height: "454px" }}
+>
+  <div className="card-body">
+    <img src={kegiatan2} className="d-block w-100" alt="..." />
+  </div>
+</div>
+<div
+  className="card border-0"
+  style={{ width: "482px", height: "454px" }}
+>
+  <div className="card-body">
+    <img src={kegiatan3} className="d-block w-100" alt="..." />
+  </div>
+</div>
+</div> */
 }
