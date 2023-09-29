@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import line2 from "../../assets/image/line2.png";
 import kegiatan1 from "../../assets/image/kegiatan1.png";
 import kegiatan2 from "../../assets/image/kegiatan2.png";
@@ -106,37 +107,4 @@ export function CarouselKegiatanitem() {
   );
 }
 
-{
-  /* <div className="carousel-item d-flex active">
-<div
-  className="card border-0"
-  style={{ width: "482px", height: "454px" }}
->
-  <div className="card-body">
-    <img src={kegiatan1} className="d-block w-100" alt="..." />
-    <div>
-      <p className="text-line-kegiatan1">10 Agustus 2023</p>
-      <p className="text-line-kegiatan2">
-        Peletakan Batu Pertama Untuk Pembangunan Rumah Hijau
-      </p>
-    </div>
-  </div>
-</div>
-<div
-  className="card border-0"
-  style={{ width: "482px", height: "454px" }}
->
-  <div className="card-body">
-    <img src={kegiatan2} className="d-block w-100" alt="..." />
-  </div>
-</div>
-<div
-  className="card border-0"
-  style={{ width: "482px", height: "454px" }}
->
-  <div className="card-body">
-    <img src={kegiatan3} className="d-block w-100" alt="..." />
-  </div>
-</div>
-</div> */
-}
+
