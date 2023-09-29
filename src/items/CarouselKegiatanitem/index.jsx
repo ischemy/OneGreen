@@ -3,6 +3,22 @@ import kegiatan1 from "../../assets/image/kegiatan1.png";
 import kegiatan2 from "../../assets/image/kegiatan2.png";
 import kegiatan3 from "../../assets/image/kegiatan3.png";
 export function CarouselKegiatanitem() {
+  function CardKegiatan(props) {
+    return (
+      <>
+        <div className="card">
+          <img src={props.image} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="text-line-kegiatan1">10 Agustus 2023</p>
+            <p className="text-line-kegiatan2">
+              Peletakan Batu Pertama Untuk Pembangunan Rumah Hijau
+            </p>
+          </div>
+        </div>
+        ;
+      </>
+    );
+  }
   return (
     <>
       <div className="container mt-80">
@@ -40,55 +56,23 @@ export function CarouselKegiatanitem() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="card-group gap-8">
-                <div className="card">
-                  <img src={kegiatan1} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <p className="text-line-kegiatan1">10 Agustus 2023</p>
-                    <p className="text-line-kegiatan2">
-                      Peletakan Batu Pertama Untuk Pembangunan Rumah Hijau
-                    </p>
-                  </div>
-                </div>
-                <div className="card">
-                  <img src={kegiatan2} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
-                <div className="card">
-                  <img src={kegiatan3} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
+                <CardKegiatan image={kegiatan1} />
+                <CardKegiatan image={kegiatan2} />
+                <CardKegiatan image={kegiatan3} />
               </div>
             </div>
             <div className="carousel-item">
               <div className="card-group gap-8">
-                <div className="card">
-                  <img src={kegiatan3} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
-                <div className="card">
-                  <img src={kegiatan3} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
-                <div className="card">
-                  <img src={kegiatan3} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
+                <CardKegiatan image={kegiatan1} />
+                <CardKegiatan image={kegiatan2} />
+                <CardKegiatan image={kegiatan3} />
               </div>
             </div>
             <div className="carousel-item">
               <div className="card-group gap-8">
-                <div className="card">
-                  <img src={kegiatan3} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
-                <div className="card">
-                  <img src={kegiatan3} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
-                <div className="card">
-                  <img src={kegiatan3} className="card-img-top" alt="..." />
-                  <div className="card-body"></div>
-                </div>
+                <CardKegiatan image={kegiatan1} />
+                <CardKegiatan image={kegiatan2} />
+                <CardKegiatan image={kegiatan3} />
               </div>
             </div>
           </div>
