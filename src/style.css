@@ -848,7 +848,10 @@ a {
   font-size: 14px;
   font-weight: 400;
 }
-
+.fe {
+  position: relative;
+  float: right;
+}
 .btn-next-slide {
   border: none;
   color: rgba(25, 175, 0, 1);
